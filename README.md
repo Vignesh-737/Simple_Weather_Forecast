@@ -19,7 +19,7 @@ A simple weather app built with HTML, CSS, and JavaScript that fetches real-time
 
 🌐 [View Live](https://harmonious-praline-ae19ba.netlify.app/)
 
-> Replace the above URL with your actual Netlify link after deployment.
+
 
 ---
 
