@@ -38,7 +38,7 @@ A simple weather app built with HTML, CSS, and JavaScript that fetches real-time
 ### 1. Clone the repository
 
 bash
-git clone https://github.com/YOUR_USERNAME/weather-app.git
+git clone https://github.com/Vignesh-737/Simple_Weather_Forecast.git
 cd weather-app
 
 
@@ -56,8 +56,11 @@ Just open weather.html in your browser.
 weather-app/
 │
 ├── weather.html       # Main HTML file
+
 ├── weather.css        # Styles
+
 ├── weather.js         # JavaScript logic
+
 └── README.md          # Project documentation
 
 
@@ -112,9 +115,9 @@ const apiKey = "your_api_key_here";
 ## 🧪 Example
 
 
-Search: Chennai
+Search: Bengaluru
 
-Temperature in Chennai: 31°C (Feels like 33°C)
+Temperature in Chennai: 25°C (Feels like 27°C)
 Condition: scattered clouds
 Humidity: 70%
 Wind speed: 3.5 m/s
