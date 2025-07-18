@@ -8,14 +8,14 @@ async function getweather() {
     try{
         const response=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${apiKey}&units=metric`);
         const data=await response.json();
-        document.getElementById("weatherresult").innerHTML+=`Temperature in ${data.name}: ${data.main.temp}*C. (Feels Like ${data.main.feels_like}*C)
+        document.getElementById("weatherresult").innerHTML=`<br>Temperature in ${data.name}: ${data.main.temp}*C. (Feels Like ${data.main.feels_like}*C)
         <br> Condition: ${data.weather[0].description}
         <br> Humidity: ${data.main.humidity}%
-        <br> wind speed: ${data.wind.speed} <hr>` ;
+        <br> wind speed: ${data.wind.speed}`;
     }
     catch(e){
         console.log(e);
-        document.getElementById("weatherresult").innerHTML+=`No data available of ${cityname} or City Not Found<hr>`;
+        document.getElementById("weatherresult").innerHTML=`<br>No data available of ${cityname} or City Not Found` ;
 
     }
 }
