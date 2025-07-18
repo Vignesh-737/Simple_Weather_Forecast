@@ -17,7 +17,7 @@ A simple weather app built with HTML, CSS, and JavaScript that fetches real-time
 
 ## 🔗 Live Demo
 
-🌐 [View Live](https://your-netlify-site.netlify.app)
+🌐 [View Live](https://harmonious-praline-ae19ba.netlify.app/)
 
 > Replace the above URL with your actual Netlify link after deployment.
 
