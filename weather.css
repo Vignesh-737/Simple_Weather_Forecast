@@ -53,9 +53,16 @@ button:hover {
   background-color: rgb(255, 110, 0);
 }
 
+#logo{
+  height: auto;
+  width: 90px;
+  vertical-align: middle;
+}
+
 #weatherresult {
   font-family:"Roboto Condensed", sans-serif;
   font-size: 1.5rem;
+  font-weight: 500;
   color: rgb(32, 31, 30);
   margin-top: 20px;
 }
