@@ -3,7 +3,8 @@ const button=document.getElementById("button");
 const input=document.getElementById("cityInput");
 
 async function getweather() {
-    const cityname=input.value;
+    const city=input.value;
+    const cityname=city.trimEnd();
     console.log(cityname);
     try{
         const response=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${apiKey}&units=metric`);
